@@ -1,2 +1,2 @@
 # RAIccoon
-AI Threat Intel Analyst with RE Purple Team Dtection Enginnering and report writing capabilities
+AI Threat Intel Analyst with RE, Purple Team, Detection Enginnering, and report writing capabilities
