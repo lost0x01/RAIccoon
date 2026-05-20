@@ -1,5 +1,5 @@
 # 🦝 RAIccoon — Purple Team Security Research Skill
-
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/83c134bb-1ba8-44ee-a103-4839d4a9b0d1" />
 > A unified purple team skill for Claude (Cowork / Claude Code) covering the full attack/defence lifecycle — from threat report triage to detection engineering, malware analysis, incident response, and cloud threat hunting.
 
 ---
