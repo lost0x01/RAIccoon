@@ -29,6 +29,32 @@ The core philosophy: *understand how something is attacked, then immediately bui
 | 11 | **Cloud Threat Detection** | Need detections or hunting queries for AWS, Azure, or GCP |
 
 ---
+```mermaid
+flowchart LR
+
+    A[User Task / Input]
+    --> B[RAIccoon Identifies Relevant Module(s)]
+
+    B --> C[Offensive Analysis]
+    C --> D[Defensive Translation]
+
+    D --> E[Detection Engineering]
+    D --> F[Threat Hunting]
+    D --> G[Incident Response]
+    D --> H[Purple Team Planning]
+
+    E --> I[Rules & Detections]
+    F --> J[Hunt Queries & IOC Enrichment]
+    G --> K[Scoping & Timelines]
+    H --> L[Exercise Metrics & Coverage]
+
+    I --> M[Operational Security Outcomes]
+    J --> M
+    K --> M
+    L --> M
+
+---
+
 
 ## Quick Start
 
