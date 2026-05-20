@@ -1,5 +1,5 @@
 # 🦝 RAIccoon — Purple Team Security Research Skill
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/83c134bb-1ba8-44ee-a103-4839d4a9b0d1" />
+
 > A unified purple team skill for Claude (Cowork / Claude Code) covering the full attack/defence lifecycle — from threat report triage to detection engineering, malware analysis, incident response, and cloud threat hunting.
 
 ---
@@ -248,9 +248,13 @@ RAIccoon is a research and analysis assistant. All penetration testing and explo
 
 > **Read this before using RAIccoon in any operational, professional, or research context.**
 
+**Version:** v1.1 — May 2026
+
 ### Authorised Use Only
 
 RAIccoon is provided exclusively for **lawful, authorised security research, defensive operations, and educational purposes**. All penetration testing guidance, exploitation techniques, proof-of-concept payloads, and offensive security content within this skill are intended solely for use against systems and infrastructure for which you hold **explicit written authorisation** from the legal owner or controller.
+
+**What qualifies as written authorisation?** Verbal agreement, instant messages, and informal emails are not sufficient. Acceptable authorisation includes a signed Statement of Work (SoW), a signed Rules of Engagement (RoE) document, a formal bug bounty programme scope agreement, or equivalent written instrument that clearly identifies the authorising party, the systems in scope, the permitted activities, and the testing timeframe. If you are unsure whether your authorisation meets this standard, do not proceed until it does.
 
 Accessing, testing, or exploiting systems without authorisation is illegal in most jurisdictions, including but not limited to offences under:
 
@@ -262,9 +266,19 @@ Accessing, testing, or exploiting systems without authorisation is illegal in mo
 
 **You are solely responsible for ensuring your use of RAIccoon complies with all applicable laws, regulations, and organisational policies.**
 
+### Data Privacy
+
+RAIccoon modules — particularly Incident Response Triage, Threat Hunting, and Sandbox Report Analysis — may involve processing log data, network captures, or other artefacts that contain personal or sensitive information. **Do not input personal data, confidential customer data, or information regulated under data protection law (e.g. GDPR, HIPAA, CCPA) without ensuring compliance with applicable regulations and your organisation's data handling policies.** Where regulated data must be analysed, ensure appropriate anonymisation, access controls, and data retention policies are in place before use.
+
+### Export Control
+
+Some offensive security techniques, tooling references, and cryptographic methods described within RAIccoon's modules may be subject to export control regulations, including the Export Administration Regulations (EAR) and the International Traffic in Arms Regulations (ITAR) in the United States, and equivalent frameworks in other jurisdictions. Users operating in regulated industries, with international teams, or distributing RAIccoon-derived work across borders should verify compliance with applicable export control laws before use.
+
 ### No Warranty
 
 RAIccoon is provided **"as-is" and "as-available"** without warranty of any kind, express or implied. This includes, without limitation, warranties of fitness for a particular purpose, accuracy, completeness, non-infringement, or fitness for use in operational security environments. Detection rules, IOCs, threat intelligence, and analytical outputs generated with RAIccoon's assistance **must be independently validated** before use in production systems, incident response actions, or legal proceedings.
+
+Note for users in the European Union and other jurisdictions with consumer protection legislation: applicable local law may limit the extent to which implied warranties can be disclaimed. Nothing in this disclaimer is intended to exclude or restrict rights that cannot be waived under mandatory local law.
 
 ### Limitation of Liability
 
