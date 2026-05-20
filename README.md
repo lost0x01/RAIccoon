@@ -1,7 +1,3 @@
-# RAIccoon
-AI Threat Intel Analyst with RE, Purple Team, Detection Enginnering, and report writing capabilities
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/cfe731c5-5f9c-4dea-b55a-83c2c60b648d" />
-
 # 🦝 RAIccoon — Purple Team Security Research Skill
 
 > A unified purple team skill for Claude (Cowork / Claude Code) covering the full attack/defence lifecycle — from threat report triage to detection engineering, malware analysis, incident response, and cloud threat hunting.
@@ -241,6 +237,75 @@ Many purple team tasks naturally span multiple modules. Common patterns:
 ## Disclaimer
 
 RAIccoon is a research and analysis assistant. All penetration testing and exploitation guidance requires **explicit written authorisation** from the asset owner before use. Detection rules and IOCs should be validated in your environment before production deployment. AI-generated CVE reports and threat intel summaries must be corroborated against primary sources before operational use.
+
+---
+
+*RAIccoon — because every good purple team needs a scrappy masked accomplice.*
+
+---
+
+## Legal Disclaimer
+
+> **Read this before using RAIccoon in any operational, professional, or research context.**
+
+### Authorised Use Only
+
+RAIccoon is provided exclusively for **lawful, authorised security research, defensive operations, and educational purposes**. All penetration testing guidance, exploitation techniques, proof-of-concept payloads, and offensive security content within this skill are intended solely for use against systems and infrastructure for which you hold **explicit written authorisation** from the legal owner or controller.
+
+Accessing, testing, or exploiting systems without authorisation is illegal in most jurisdictions, including but not limited to offences under:
+
+- The Computer Fraud and Abuse Act (CFAA) — United States
+- The Computer Misuse Act 1990 — United Kingdom
+- The Cybercrime Act 2001 — Australia
+- The Budapest Convention on Cybercrime — applicable across signatory states
+- Applicable national computer crime and data protection legislation in your jurisdiction
+
+**You are solely responsible for ensuring your use of RAIccoon complies with all applicable laws, regulations, and organisational policies.**
+
+### No Warranty
+
+RAIccoon is provided **"as-is" and "as-available"** without warranty of any kind, express or implied. This includes, without limitation, warranties of fitness for a particular purpose, accuracy, completeness, non-infringement, or fitness for use in operational security environments. Detection rules, IOCs, threat intelligence, and analytical outputs generated with RAIccoon's assistance **must be independently validated** before use in production systems, incident response actions, or legal proceedings.
+
+### Limitation of Liability
+
+To the fullest extent permitted by applicable law, the author(s) and contributors of RAIccoon shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages arising from the use of or inability to use this skill, including but not limited to:
+
+- Damage to systems, data, or networks resulting from acting on outputs produced with this skill
+- Legal consequences arising from unauthorised use of techniques described herein
+- Security incidents or breaches arising from misapplied detections, misconfigured rules, or unvalidated IOCs
+- Reliance on AI-generated intelligence that has not been corroborated against primary sources
+
+### AI-Generated Content
+
+RAIccoon is an AI-assisted tool. All outputs — including detection rules, IOC assessments, threat actor attributions, CVE analyses, and incident response guidance — are **AI-generated and must be treated as a starting point for analyst review**, not as authoritative ground truth. AI outputs may contain errors, omissions, hallucinations, or outdated information. Always corroborate against primary sources (vendor advisories, NVD, MITRE ATT&CK, your own telemetry) before operational use.
+
+### Responsible Disclosure
+
+If RAIccoon's outputs or associated research uncover a previously undisclosed vulnerability or security issue, you are encouraged to follow responsible disclosure practices and report findings to the affected vendor or through an appropriate coordinated disclosure programme (e.g. CISA, NCSC, vendor bug bounty) before any public release.
+
+### Third-Party Tools and Resources
+
+References to third-party tools, frameworks, platforms, and services (including but not limited to VirusTotal, Shodan, Ghidra, Metasploit, Splunk, and Microsoft Sentinel) are for informational purposes only. Use of those tools is subject to their own terms of service and licensing agreements. RAIccoon does not endorse, guarantee, or take responsibility for third-party tools or their outputs.
+
+---
+
+## License
+
+[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+**You are free to:**
+- **Share** — copy and redistribute the material in any medium or format for any purpose, including commercially
+- **Adapt** — remix, transform, and build upon the material for any purpose, including commercially
+
+**Under the following terms:**
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+Full license text: [`LICENSE`](./LICENSE)
+
+Copyright © 2026 Rob Morrow. All rights reserved under the terms of the CC BY-SA 4.0 license above.
 
 ---
 
