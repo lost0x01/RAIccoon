@@ -1,7 +1,7 @@
 # 🦝 RAIccoon — Purple Team Security Research Skill
 
 > A unified purple team skill for Claude (Cowork / Claude Code) covering the full attack/defence lifecycle — from threat report triage to detection engineering, malware analysis, incident response, and cloud threat hunting.
-
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/83c134bb-1ba8-44ee-a103-4839d4a9b0d1" />
 ---
 
 ## Overview
@@ -10,6 +10,24 @@ RAIccoon is a single, opinionated skill that brings together **11 purple team ca
 
 The core philosophy: *understand how something is attacked, then immediately build the detection and response for it.*
 
+```mermaid
+flowchart LR
+    A[User Task / Input] --> B[RAIccoon Identifies Relevant Modules]
+    B --> C[Offensive Analysis]
+    C --> D[Defensive Translation]
+    D --> E[Detection Engineering]
+    D --> F[Threat Hunting]
+    D --> G[Incident Response]
+    D --> H[Purple Team Planning]
+    E --> I[Rules & Detections]
+    F --> J[Hunt Queries & IOC Enrichment]
+    G --> K[Scoping & Timelines]
+    H --> L[Exercise Metrics & Coverage]
+    I --> M[Operational Security Outcomes]
+    J --> M
+    K --> M
+    L --> M
+```
 ---
 
 ## Modules
@@ -27,31 +45,6 @@ The core philosophy: *understand how something is attacked, then immediately bui
 | 9 | **Incident Response Triage** | Are scoping an active incident or building a timeline |
 | 10 | **Purple Team Exercise Planning** | Want to plan, run, or debrief a purple team exercise |
 | 11 | **Cloud Threat Detection** | Need detections or hunting queries for AWS, Azure, or GCP |
-
----
-```mermaid
-flowchart LR
-
-    A[User Task / Input]
-    --> B[RAIccoon Identifies Relevant Module(s)]
-
-    B --> C[Offensive Analysis]
-    C --> D[Defensive Translation]
-
-    D --> E[Detection Engineering]
-    D --> F[Threat Hunting]
-    D --> G[Incident Response]
-    D --> H[Purple Team Planning]
-
-    E --> I[Rules & Detections]
-    F --> J[Hunt Queries & IOC Enrichment]
-    G --> K[Scoping & Timelines]
-    H --> L[Exercise Metrics & Coverage]
-
-    I --> M[Operational Security Outcomes]
-    J --> M
-    K --> M
-    L --> M
 
 ---
 
