@@ -53,6 +53,22 @@ flowchart LR
 
 Install the RAIccoon skill in Claude Cowork or Claude Code, then just describe your task naturally:
 
+## Hermes Companion Skill
+
+This repository now also includes a companion Hermes setup skill package for the
+Lost Boys-style OpenCTI-backed red-team workflow:
+
+- `hermes-opencti-redteam-skill-setup.skill`
+- source: `hermes-opencti-redteam-skill-setup/SKILL.md`
+
+Use it when you want to install the `redteam-threat-exploits` community skill
+into a Hermes profile, wire it to a local OpenCTI instance, patch the local
+skill instructions for the host's OpenCTI URL, and create a reusable launcher
+such as `hermes-redteam-threats`.
+
+In Hermes, the source SKILL.md can be installed directly from a repo checkout or
+reviewed as reference documentation before importing into a profile.
+
 ```
 Analyse this threat report and build detections for the TTPs.
 ```
